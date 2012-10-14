@@ -7,6 +7,7 @@ author_twitter: kunstkernewek
 author: Oliver Scott
 categories:
 - articles
+columns: col2
 ---
 
 # How does it work?

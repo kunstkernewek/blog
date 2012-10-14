@@ -7,6 +7,7 @@ author: Michael Aufreiter
 categories:
 - articles
 published: true
+columns: col3
 ---
 
 
