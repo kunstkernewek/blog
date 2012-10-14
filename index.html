@@ -18,7 +18,7 @@ layout: default
 
 <div class="article-navigation" id="montainer">
   {% for item in site.categories.articles limit:40 offset:0 %}
-    <a class="article-link item" href="{{site.baseurl}}{{item.url}}" title="{{item.title}}">
+    <a class="article-link item {{item.abstract}}" href="{{site.baseurl}}{{item.url}}" title="{{item.title}}">
       <strong>{{item.title}}</strong></br>{{item.abstract}}
     </a>
   {% endfor %}
