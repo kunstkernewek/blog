@@ -25,6 +25,14 @@
     <div class="footer-content">
       Site built with <a href="http://github.com/prose/bootstrap">Prose.io on GitHub</a>
     </div>
-  </div>
+  </div> 
+  <script src="https://raw.github.com/desandro/vanilla-masonry/master/masonry.min.js"></script>
+  <script>
+  window.onload = function() {
+    var wall = new Masonry( document.getElementById('container'), {
+      columnWidth: 100
+    });
+  };
+</script>
 </body>
 </html>

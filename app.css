@@ -427,3 +427,12 @@ body:before {/* thanks to Maleika (Kohoutec)*/
     right: 0;
     }
   }
+
+
+
+
+.item {
+  width: 220px;
+  margin: 10px;
+  float: left;
+}
