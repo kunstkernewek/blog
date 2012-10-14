@@ -238,21 +238,21 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   overflow: auto;
 }
 
-.article-navigation .article-link {
+/*.article-navigation .article-link {
   display: block;
   float: left;
-/*  height: 30px;
+  height: 30px;
   width: 30px;
 
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
-  border-radius: 15px;*/
+  border-radius: 15px;
 
   background: rgba(0,0,0, 0.3);
   
   border: 3px solid #fff;
   margin-right: 10px;
-}
+}*/
 
 .article-link:hover, .article-link.active {
   background: #078FA2;
@@ -433,6 +433,22 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 
 .item {
   width: 125px;
-  margin: 10px;
+  margin: 5px;
   float: left;
 }
+
+/*.article-navigation .article-link {
+  display: block;
+  float: left;
+  height: 30px;
+  width: 30px;
+
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+
+  background: rgba(0,0,0, 0.3);
+  
+  border: 3px solid #fff;
+  margin-right: 10px;
+}*/
