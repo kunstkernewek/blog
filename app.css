@@ -437,11 +437,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   float: left;
 }
 
-/*.article-navigation .article-link {
-  display: block;
-  float: left;
-  height: 30px;
-  width: 30px;
+.article-navigation .article-link {
 
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
@@ -450,5 +446,5 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   background: rgba(0,0,0, 0.3);
   
   border: 3px solid #fff;
-  margin-right: 10px;
-}*/
+
+}
