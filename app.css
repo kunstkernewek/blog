@@ -447,3 +447,13 @@ background: rgba(0, 0, 0, 0.3);
 border: 3px solid white;
 padding: 2px 6px 4px;
 }
+
+.col1 {
+  width:125px;
+}
+.col2 {
+  width:250px;
+}
+.col3 {
+  width:375px;
+}
