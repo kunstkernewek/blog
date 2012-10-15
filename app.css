@@ -67,7 +67,7 @@ a {
   transition: background 100ms linear, color 100ms linear;
   }
 a:hover {
-  color: #3d4548;
+  color: #fff;
   }
 
 a:focus {
@@ -420,8 +420,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 
 .article-navigation .article-link {
-background: rgba(0, 0, 0, 0.3);
-border: 1px dashed white;
+border: 1px dashed #0688FF;
 padding: 2px 6px 4px;
 }
 
