@@ -11,9 +11,8 @@ layout: default
   <div class="article-wrapper">
     <div class="help post-content">
       {{ item.content }}
-      <div class="meta"> / / Article posted by <a href="http://twitter.com/{{item.author_twitter}}">{{item.author}}</a> on {{ item.date | date: "%B %d, %Y" }} </div>
-      </div>
     </div>
+  </div>
 {% endfor %}
 
 <div class="article-navigation" id="montainer">
