@@ -434,3 +434,7 @@ padding: 2px 6px 4px;
 .col3 {
   width:380px;
 }
+
+.footer-content .meta {
+  float: right;
+}

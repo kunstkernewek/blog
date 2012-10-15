@@ -24,7 +24,7 @@
     <div class="footer-content">
       Site built with <a href="http://github.com/prose/bootstrap">Prose.io on GitHub</a>
       {% for item in site.categories.articles limit:1 offset:0 %}
-      <span class="meta"> / / Article posted by <a href="http://twitter.com/{{item.author_twitter}}">{{item.author}}</a> on {{ item.date | date: "%B %d, %Y" }} </span>
+      <span class="meta">Article posted by <a href="http://twitter.com/{{item.author_twitter}}">{{item.author}}</a> on {{ item.date | date: "%B %d, %Y" }} </span>
 {% endfor %}
 
     </div>
