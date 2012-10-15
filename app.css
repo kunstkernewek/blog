@@ -125,7 +125,7 @@ p {
 
 /* Top Branding/Navigation */
 #header {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
@@ -253,7 +253,6 @@ body:before {/* thanks to Maleika (Kohoutec)*/
   background-repeat: no-repeat;
   padding: 120px;
   padding-bottom: 20px;
-  border-top: 1px solid #c3ccd0;
   border-bottom: 1px solid #c3ccd0;
 }
 
