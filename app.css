@@ -42,6 +42,7 @@ html {
   -ms-text-size-adjust: 100%;
   }
 
+
 /* ------------------------------------------
   Class Helpers
 ---------------------------------------------*/
@@ -94,16 +95,6 @@ html {
   width: 120px;
   margin: 5px;
   float: left;
-}
-
-.article-navigation .article-link {
-
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-border-radius: 10px;
-background: rgba(0, 0, 0, 0.3);
-border: 3px solid white;
-padding: 2px 6px 4px;
 }
 
 .col1 {
