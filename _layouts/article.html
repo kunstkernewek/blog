@@ -2,15 +2,6 @@
 layout: default
 ---
 
-
-<div class="article-navigation">
-  {% for item in site.categories.articles limit:40 offset:0 %}
-    <a class="article-link" href="{{site.baseurl}}{{item.url}}" title="{{item.title}}">
-      
-    </a>
-  {% endfor %}
-</div>
-
 <div class="intro">
   <div class="title">{{page.title}}</div>
   <div class="abstract">{{page.abstract}}</div>
@@ -21,4 +12,12 @@ layout: default
   <div class="help post-content">
     {{ content }}
   </div>
+</div>
+
+<div class="article-navigation" id="montainer">
+  {% for item in site.categories.articles limit:40 offset:0 %}
+    <a class="article-link item {{item.columns}}" href="{{site.baseurl}}{{item.url}}" title="{{item.title}}">
+      <strong>{{item.title}}</strong></br>{{item.abstract}}
+    </a>
+  {% endfor %}
 </div>
