@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Introducing Prose Bootstrap
-abstract: Prose Bootstrap is a minimal template intended to get you started with Jekyll.
+title: Prs - Prose without extras
+abstract: Prose Bootstrap is a minimal template intended to get you started with Jekyll. This version is even slimmer.
 author_twitter: kunstkernewek
 author: Oliver Scott
 categories:
@@ -10,7 +10,7 @@ published: true
 ---
 
 
-In order to get started with Prose Bootstrap, all you have to do is forking the [repository](http://github.com/prose/bootstrap) and make your own adjustments.
+In order to get started with Prose Bootstrap, all you have to do is fork the [repository](http://github.com/?) and make your own adjustments.
 
 # Adjust Configuration
 
@@ -21,7 +21,7 @@ If your page lives under `http://username.github.com/sitename` your config.yml l
     auto: true
     server: true
     permalink: none
-    baseurl: "sitename"
+    baseurl: /sitename
     exclude:
     - .gitignore
     - README.md
@@ -31,8 +31,6 @@ If your page lives under `http://username.github.com/sitename` your config.yml l
 
 Once your site is up you can start managing it with [Prose](http://prose.io). Follow the instructions [here](http://prose.io/help/getting-started.html).
 
-![](http://prose.io/images/screenshots/edit.png)
+# Add a CNAME file if you want to use your own URL...
 
-
-
-
+Thank you Developent Seed
