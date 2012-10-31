@@ -16,4 +16,13 @@ prose:
       author_twitter: kunstkernewek
       author: Oliver Scott
       categories:
-      - articles
+      - articles   
+    _posts/projects: |
+      published: false
+      layout: article
+      title: Your Post Title
+      abstract: Short summary of your article.
+      author_twitter: kunstkernewek
+      author: Oliver Scott
+      categories:
+      - projects
