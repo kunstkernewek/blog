@@ -4,7 +4,7 @@ layout: default
 
 {% for item in site.categories.articles limit:1 offset:0 %}
 <div class="intro">
-  <h1 class="title">{{page.title}}: <small class="abstract">{{page.abstract}}</small></h1>
+  <h1 class="title">{{item.title}}: <small class="abstract">{{item.abstract}}</small></h1>
 </div>
 <hr>
 
