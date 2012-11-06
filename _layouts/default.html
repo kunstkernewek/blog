@@ -4,9 +4,9 @@
 <html>
 <head>
   <meta charset='UTF-8'/>
-  <title>Kunst Kernewek Blog</title>
+  <title>Kunst Kernewek</title>
   <link rel='shortcut icon' href='{{site.baseurl}}/images/favicon.ico' type='image/x-icon' />
-  <link rel='stylesheet' href='{{site.baseurl}}/app.css'>
+  <link rel='stylesheet' href='{{site.baseurl}}/kk.css'>
 </head>
 <body>
   <div id='container'>
@@ -19,24 +19,17 @@
 
     <div id='main'>{{content}}</div>
   </div>
-
+<div class="article-navigation" id="montainer">
+  {% for item in site.categories.articles limit:40 offset:0 %}
+    <a class="article-link item {{item.columns}}" href="{{site.baseurl}}{{item.url}}" title="{{item.title}}">
+      <strong>{{item.title}}</strong></br>{{item.abstract}}
+    </a>
+  {% endfor %}
+</div>
   <div id='footer'>
     <div class="footer-content">
-      Site built with <a href="http://github.com/prose/bootstrap">Prose.io on GitHub</a>
-      {% for item in site.categories.articles limit:1 offset:0 %}
-      <span class="meta">Article posted by <a href="http://twitter.com/{{item.author_twitter}}">{{item.author}}</a> on {{ item.date | date: "%B %d, %Y" }} </span>
-{% endfor %}
-
+      # # # For more info contact press@kunstkernewek.com
     </div>
   </div> 
-  <script src="https://raw.github.com/desandro/vanilla-masonry/master/masonry.min.js"></script>
-  <script>
-  window.onload = function() {
-    var wall = new Masonry( document.getElementById('montainer'), {
-      columnWidth: 130,
-      isFitWidth: true
-    });
-  };
-</script>
 </body>
 </html>
