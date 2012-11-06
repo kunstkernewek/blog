@@ -1,8 +1,8 @@
 ---
 published: true
 layout: article
-title: Your Post Title
-abstract: Short summary of your article.
+title: Test Release
+abstract: A short release to test styling
 author_twitter: kunstkernewek
 author: Oliver Scott
 categories:
@@ -10,6 +10,13 @@ categories:
 
 ---
 
-# How does it work?
+## How does it work?
 
+Enter Text in Markdown format. 
+Enter Text in Markdown format. 
+Enter Text in Markdown format. 
+Enter Text in Markdown format. 
+Enter Text in Markdown format. 
+Enter Text in Markdown format. 
+Enter Text in Markdown format. 
 Enter Text in Markdown format. 
