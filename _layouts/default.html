@@ -19,13 +19,7 @@
 
     <div id='main'>{{content}}</div>
   </div>
-<div class="article-navigation" id="montainer">
-  {% for item in site.categories.articles limit:40 offset:0 %}
-    <a class="article-link item {{item.columns}}" href="{{site.baseurl}}{{item.url}}" title="{{item.title}}">
-      <strong>{{item.title}}</strong></br>{{item.abstract}}
-    </a>
-  {% endfor %}
-</div>
+
   <div id='footer'>
     <div class="footer-content">
       # # # For more info contact press@kunstkernewek.com
