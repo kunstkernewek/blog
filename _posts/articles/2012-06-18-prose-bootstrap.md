@@ -16,7 +16,7 @@ Fork the [repository](https://github.com/prose/bootstrap).
 If your page lives under `http://username.github.com/sitename` update the config.yml like this:
 
     baseurl: /sitename
-
+ 
 I had to remove the CNAME file as i wasn't using a custom URL.
 
 # Use Prose to make posts
