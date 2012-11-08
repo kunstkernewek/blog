@@ -16,7 +16,17 @@ prose:
       author_twitter: kunstkernewek
       author: Oliver Scott
       categories:
-      - articles   
+      - articles  
+    _posts/releases: |
+      published: false
+      layout: release
+      headline: Briefly summarize the news - not title
+      introduction: first paragraph - basic answers to who what when where why
+      boilerplate: short "about" section - providing independent background on the issuing company/organization/individual
+      author_twitter: kunstkernewek
+      author: Oliver Scott
+      categories:
+      - releases   
     _posts/projects: |
       published: false
       layout: article
