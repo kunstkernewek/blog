@@ -2,7 +2,23 @@
 layout: default
 ---
 
-{% for item in site.categories.articles limit:1 offset:0 %}
+{% for item in site.categories.releases limit:1 offset:0 %}
+<div class="intro">
+  <h1 class="title">{{item.headline}}: <small class="abstract">{{item.introduction}}</small></h1>
+</div>
+<hr>
+
+<div class="article-wrapper">
+  <div class="help post-content">
+    {{ item.content }}
+  </div>
+  <div class="boilerplate">
+    {{item.boilerplate}}
+  </div>
+</div>
+
+
+<!-- {% for item in site.categories.articles limit:1 offset:0 %}
 <div class="intro">
   <h1 class="title">{{item.title}}: <small class="abstract">{{item.abstract}}</small></h1>
 </div>
@@ -13,23 +29,23 @@ layout: default
       {{ item.content }}
     </div>
   </div>
-{% endfor %}
+{% endfor %} -->
 
 <div>
-  {% for item in site.categories.releases limit:40 offset:0 %}
+  {% for item in site.categories.releases limit:40 offset:1 %}
     <a href="{{site.baseurl}}{{item.url}}" title="{{item.introduction}}">
-      {{item.introduction}}
+      {{item.headline}}
     </a>
   {% endfor %}
 </div>
 
-<div>
+<!-- <div>
   {% for item in site.categories.articles limit:40 offset:1 %}
     <a href="{{site.baseurl}}{{item.url}}" title="{{item.title}}">
       {{item.title}}
     </a>
   {% endfor %}
-</div>
+</div> -->
 
 <!-- <div class="article-navigation" id="montainer">
   {% for item in site.categories.articles limit:40 offset:0 %}
