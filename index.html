@@ -15,6 +15,19 @@ layout: default
   </div>
 {% endfor %}
 
+{% for item in site.categories.releases limit:1 offset:0 %}
+<div class="intro">
+  <h1 class="title">{{item.headline}}: <small class="abstract">{{item.introduction}}</small></h1>
+</div>
+<hr>
+
+  <div class="article-wrapper">
+    <div class="help post-content">
+      {{ item.content }}
+    </div>
+  </div>
+{% endfor %}
+
 <div>
   {% for item in site.categories.articles limit:40 offset:1 %}
     <a href="{{site.baseurl}}{{item.url}}" title="{{item.title}}">
